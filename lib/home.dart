@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
       isSending = true;
     });
     String based64Image = base64Encode(File(imageFIle.path).readAsBytesSync());
-    String apiKey = "AIzaSyBwWRWjuPkvOS31ynz6BT9tpk9mI9jo6HA";
+    String apiKey = "API Key";
     String requestBody = json.encode({
       "contents": [
         {
